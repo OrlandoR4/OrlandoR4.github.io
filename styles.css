@@ -17,32 +17,45 @@ body {
 header {
     background-color: #333;
     color: #fff;
-    padding: 20px 0;
+    padding: 0px 0;
+    top: 0;
     text-align: center;
     margin-bottom: 20px;
+    position: fixed;
+    width: 100%;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
 }
 
-header h1 {
-    margin: 0;
+#home {
+    margin-top: 30px;
 }
 
-/* Navigation styling */
-nav ul {
-    list-style-type: none;
-    padding: 0;
+header nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 8px;
 }
 
-nav ul li {
-    display: inline;
-    margin-right: 10px;
+header nav h1 {
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 40%;
 }
 
-nav ul li a {
-    text-decoration: none;
+header div {
+    display: flex;
+}
+
+header div a {
     color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
 }
 
-nav ul li a:hover {
+header div a:hover {
     text-decoration: underline;
 }
 
@@ -55,12 +68,15 @@ section {
     border-radius: 5px;
 }
 
+section a{
+    color: rgb(0, 175, 155);
+}
+
 section h2 {
     margin-top: 0;
 }
 
-
-#projects ul{
+section ul{
     list-style-type: disc;
     padding-left: 30px;
 }
@@ -71,7 +87,6 @@ footer {
     color: #fff;
     text-align: center;
     padding: 10px 0;
-    position: fixed;
     bottom: 0;
     width: 100%;
 }
