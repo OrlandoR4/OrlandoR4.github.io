@@ -44,6 +44,34 @@ header {
     object-fit: cover;
 }
 
+#projects h2{
+    padding-bottom: 20px;
+}
+
+#projects .project img{
+    max-width: 100%;
+    aspect-ratio: 1 / 1;
+}
+
+#projects .project-grid{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 50px;
+    padding: 0px;
+}
+
+#about{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+#about img{
+    max-height: 300px;
+    object-fit: cover;
+    width: 80%;
+    float: right;
+}
+
 header nav {
     display: flex;
     justify-content: space-between;
