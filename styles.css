@@ -13,6 +13,10 @@ body {
     padding: 5px;
 }
 
+html{
+    scroll-behavior: smooth;
+}
+
 /* Header styling */
 header {
     background-color: #333;
