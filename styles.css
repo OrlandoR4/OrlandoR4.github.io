@@ -113,7 +113,7 @@ header .nav-right{
 }
 
 #projects h2{
-    padding-bottom: 20px;
+    padding-bottom: 50px;
 }
 
 #projects img{
@@ -124,6 +124,8 @@ header .nav-right{
 #projects .project-grid{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
+    max-width: 600px;
+    margin: 0 auto;
     gap: 50px;
     padding: 0px;
 }
