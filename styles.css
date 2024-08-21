@@ -12,11 +12,16 @@ body, h1, h2, h3, p, ul {
 
 /* Body styling */
 body {
-    scroll-padding-top: 200px;
     line-height: 1.6;
     background-color: #f4f4f4;
     color: #333;
     padding: 5px;
+}
+
+/* Anchor settings for good scroll */
+.anchor{
+    position: relative;
+    top: -40px;
 }
 
 /* Section styling */
