@@ -130,15 +130,15 @@ header .nav-right{
 }
 
 #projects .project-grid{
-    margin-top: 20px;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     max-width: 1000px;
+    margin: 0 auto;
     gap: 40px;
     padding: 0px;
 }
 
-@media (max-width: 768px) {
+@media (max-aspect-ratio: 3/4) {
     #projects .project-grid{
         grid-template-columns: repeat(2, 1fr);
     }
