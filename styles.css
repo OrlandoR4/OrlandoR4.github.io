@@ -10,6 +10,11 @@ body, h1, h2, h3, p, ul {
     font-family: Arial, sans-serif;
 }
 
+/* Font sizing */
+p{
+    font-size: medium;
+}
+
 /* Body styling */
 body {
     line-height: 1.6;
@@ -26,7 +31,7 @@ body {
 
 /* Section styling */
 section {
-    margin-bottom: 20px;
+    margin-bottom: 10px;
     padding: 20px;
     background-color: #fff;
     border: 1px solid #ddd;
@@ -106,6 +111,7 @@ header .nav-right{
 /* Specific section styling */
 #home {
     margin-top: 30px;
+    margin-bottom: -2px;
     padding: 0;
     border: 0;
     background-color: #f4f4f4;
@@ -124,12 +130,21 @@ header .nav-right{
 }
 
 #projects .project-grid{
+    margin-top: 20px;
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    max-width: 700px;
-    margin: 0 auto;
-    gap: 80px;
-    padding: 40px;
+    grid-template-columns: repeat(3, 1fr);
+    max-width: 1000px;
+    gap: 40px;
+    padding: 0px;
+}
+
+@media (max-width: 768px) {
+    #projects .project-grid{
+        grid-template-columns: repeat(2, 1fr);
+    }
+    #projects .project-grid p{
+        display: none;
+    }
 }
 
 #about{
