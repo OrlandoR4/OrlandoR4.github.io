@@ -165,6 +165,9 @@ header div a:hover {
         margin-top: 5%;
         width: 100%;
     }
+    header nav a{
+        text-decoration: underline;
+    }
     #projects .project-grid{
         grid-template-columns: repeat(2, 1fr);
     }
