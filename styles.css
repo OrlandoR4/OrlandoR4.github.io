@@ -20,7 +20,6 @@ body {
     line-height: 1.6;
     background-color: #f4f4f4;
     color: #333;
-    padding: 5px;
 }
 
 /* Anchor settings for good scroll */
@@ -31,7 +30,7 @@ body {
 
 /* Section styling */
 section {
-    margin-bottom: 10px;
+    margin: 5px 5px;
     padding: 20px;
     background-color: #fff;
     border: 1px solid #ddd;
@@ -65,7 +64,7 @@ footer {
 header {
     background-color: #333;
     color: #fff;
-    padding: 0px 0;
+    padding: 0;
     top: 0;
     text-align: center;
     margin-bottom: 20px;
@@ -148,7 +147,7 @@ header div a:hover {
 }
 
 #about img{
-    max-height: 300px;
+    max-height: 400px;
     object-fit: cover;
     width: 80%;
     float: right;
@@ -160,7 +159,9 @@ header div a:hover {
         grid-template-columns: repeat(1, 2fr);
     }
     #about img{
-        display: none;
+        /* display: none; */
+        margin-top: 5%;
+        width: 100%;
     }
     #projects .project-grid{
         grid-template-columns: repeat(2, 1fr);
