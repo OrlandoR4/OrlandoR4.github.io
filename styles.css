@@ -8,21 +8,25 @@ body, h1, h2, h3, p, ul, a {
     margin: 0;
     padding: 0;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #b1b1b1;
     text-shadow: #797979 0px 0px 2px;
 }
 
 /* Paragraph styling */
 p{
     font-size: medium;
-    color: #b1b1b1;
     margin-bottom: 10px;
+}
+
+/* Heading styling */
+h1, h2, h3 {
+    color: #ffffff;
 }
 
 /* Body styling */
 body {
     line-height: 1.6;
     background-color: #121212;
-    color: #ffffff;
 }
 
 /* Anchor settings for good scroll */
@@ -43,7 +47,7 @@ section {
 }
 
 section a{
-    color: rgb(0, 175, 155);
+    color: #bb64ff;
 }
 
 section h2 {
@@ -57,8 +61,8 @@ section ul{
 
 /* Footer styling */
 footer {
-    background-color: #333;
-    color: #fff;
+    background-color: #282828;
+    color: #ffffff;
     text-align: center;
     padding: 10px 0;
     bottom: 0;
@@ -67,8 +71,8 @@ footer {
 
 /* Header styling */
 header {
-    background-color: #333;
-    color: #fff;
+    background-color: #282828;
+    color: #ffffff;
     padding: 0;
     top: 0;
     text-align: center;
@@ -83,15 +87,16 @@ header nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 8px;
+    margin: 0px;
 }
 
 header div {
     display: flex;
+    align-items: center;
 }
 
 header div a {
-    color: #fff;
+    color: #ffffff;
     text-decoration: none;
     margin: 0 10px;
 }
@@ -106,6 +111,12 @@ header div a:hover {
     margin: 0 auto;
 }
 
+.contact-link {
+    background-color: #bb64ff;
+    padding: 8px 10px;
+    border-radius: 0px;
+}
+
 #home {
     margin-top: 30px;
     margin-bottom: -2px;
@@ -113,24 +124,24 @@ header div a:hover {
     border: 0;
 }
 
-#home img{
+#home img {
     width: 100%;
     height: auto;
     max-height: 50vh;
     object-fit: cover;
 }
 
-#projects img{
+#projects img {
     border-radius: 2%;
     width: 100%;
     aspect-ratio: 1 / 1;
     object-fit: cover;
     border-style: solid;
-    border-color: #333;
-    border-width: 2px;
+    border-color: #211b26;
+    border-width: 4px;
 }
 
-#projects .project-grid{
+#projects .project-grid {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     max-width: 1000px;
@@ -146,13 +157,13 @@ header div a:hover {
         max-width: fit-content;
         margin: 0 5%;
     }
-    header nav a{
-        text-decoration: underline;
+    .nav-right-content{
+        display: none;
     }
-    #projects .project-grid{
+    #projects .project-grid {
         grid-template-columns: repeat(2, 1fr);
     }
-    #projects .project-grid p{
+    #projects .project-grid p {
         display: none;
     }
 }
