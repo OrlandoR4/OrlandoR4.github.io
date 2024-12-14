@@ -52,6 +52,9 @@ footer {
 
 /* Mobile settings */
 @media (max-aspect-ratio: 1 / 1) {
+    #capabilities li{
+        font-size: small;
+    }
     #capabilities .content{
         display: grid;
         grid-template-columns: repeat(3, 1fr);
