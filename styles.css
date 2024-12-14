@@ -10,12 +10,17 @@ html {
 }
 
 /* Set the default styles */
-body, h1, h2, h3, p, a, ul, li {
+body, h1, h2, h3, h4, h5, h6, p, a, ul, ol, li {
     margin: 0;
     padding: 0;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: #b1b1b1;
     text-shadow: #797979 0px 0px 2px;
+}
+
+/* Horizontal rule styling */
+hr {
+    max-width: 60%;
 }
 
 /* Paragraph styling */
@@ -83,12 +88,12 @@ header div a {
 header div a:hover {
     text-decoration: underline;
 }
-.contact-link {
+.primary-link {
     background-color: #bb64ff;
     padding: 8px 10px;
     border-radius: 0px;
 }
-.printing-link {
+.secondary-link {
     background-color: #cd88ff;
     padding: 8px 10px;
     border-radius: 0px;
@@ -96,10 +101,11 @@ header div a:hover {
 
 /* Footer styling */
 footer {
+    position: relative;
     background-color: #282828;
     color: #ffffff;
     text-align: center;
-    padding: 10px 0;
+    padding: 8px 0;
     bottom: 0;
     width: 100%;
 }
@@ -128,11 +134,9 @@ footer {
 #projects .project-grid {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    max-width: 1000px;
     margin: 0 auto;
     margin-top: 20px;
     gap: 40px;
-    padding: 0px;
 }
 #projects img {
     transition: transform 0.2s ease-in-out;
@@ -150,8 +154,11 @@ footer {
 
 /* Mobile settings */
 @media (max-aspect-ratio: 1 / 1) {
+    hr {
+        max-width: 80%;
+    }
     .content {
-        max-width: fit-content;
+        max-width: none;
         margin: 0 5%;
     }
     .nav-right-content {

@@ -1,0 +1,62 @@
+/* Set the default styles */
+body{
+    text-align: center;
+}
+
+/* Footer styling */
+footer {
+    position: fixed;
+    bottom: 0;
+}
+
+/* Quote section styling */
+#quote {
+    margin-top: 50px;
+    margin-bottom: -2px;
+    padding: 0;
+    border: 0;
+}
+#quote h1 {
+    font-size: 8vh;
+}
+#quote .button {
+    transition: transform 0.2s ease-in-out;
+    color: #ffffff;
+    background-color: #bb64ff;
+    padding: 12px 20px;
+    display: inline-block;
+    margin: 10px;
+    text-decoration: none;
+    border-radius: 20px;
+}
+#quote .button:hover {
+    transform: scale(1.1);
+}
+
+/* Capabilities section styling */
+#capabilities .content{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin: 0 auto;
+    margin-top: 20px;
+    gap: 40px;
+}
+#capabilities li {
+    text-align: left;
+}
+
+/* Examples section styling */
+#examples {
+    margin-bottom: 100px; /* Margin to prevent footer from covering content */
+}
+
+/* Mobile settings */
+@media (max-aspect-ratio: 1 / 1) {
+    #capabilities .content{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        margin: 0 auto;
+        margin-top: 20px;
+        gap: 10px;
+    }
+}
