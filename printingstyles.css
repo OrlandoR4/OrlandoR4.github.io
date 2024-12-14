@@ -52,8 +52,11 @@ footer {
 
 /* Mobile settings */
 @media (max-aspect-ratio: 1 / 1) {
+    #capabilities h3{
+        font-size: medium;
+    }
     #capabilities li{
-        font-size: small;
+        font-size: smaller;
     }
     #capabilities .content{
         display: grid;
