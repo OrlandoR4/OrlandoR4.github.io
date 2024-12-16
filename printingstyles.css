@@ -112,6 +112,8 @@ footer {
         gap: 10px;
     }
     .grid-display p{
+        font-size: 0.8em; /* Reduce font size for smaller screens */
+        margin: 2px; /* Space after paragraph */
         display: inline;
     }
 }
