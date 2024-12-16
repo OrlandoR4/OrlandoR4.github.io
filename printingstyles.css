@@ -86,7 +86,7 @@ footer {
 #examples {
     margin-bottom: 100px; /* Margin to prevent footer from covering content */
 }
-#examples p {
+#examples .grid-display p {
     color: var(--primary-color);
     text-shadow: var(--text-primary-shadow-color) 0px 0px 2px;
 }
