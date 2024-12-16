@@ -1,16 +1,16 @@
 /* Root variables */
 :root {
-    --primary-color:               #bb64ff;
-    --secondary-color:             #211b26;
-    --background-color:            #121212;
-    --header-color:                #282828;
-    --header-light-color:          #474747;
-    --text-primary-color:          #ffffff;
-    --text-secondary-color:        #b1b1b1;
-    --accent-color:                #cd88ff;
-    --background-primary-color:    #211b26;
-    --background-dark-color:       #2a232f;
-    --background-highlight-color:  #372e3d;
+    --primary-color:               #dc143c; /* Crimson red */
+    --secondary-color:             #211b26; /* Dark theme retained */
+    --background-color:            #121212; /* Dark theme retained */
+    --header-color:                #1f1f1f; /* Slightly darker header */
+    --header-light-color:          #292929; /* Lighter but still dark */
+    --text-primary-color:          #ffffff; /* White text */
+    --text-secondary-color:        #b1b1b1; /* Monochromatic text color retained */
+    --accent-color:                #e3345a; /* Crimson red accent */
+    --background-primary-color:    #261b1c; /* Dark theme retained */
+    --background-dark-color:       #2f2327; /* Dark theme retained */
+    --background-highlight-color:  #3d2e30; /* Dark theme retained */
 }
 
 /* File behavior */
