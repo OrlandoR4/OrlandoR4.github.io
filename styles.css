@@ -1,3 +1,17 @@
+/* Root variables */
+:root {
+    --primary-color:               #bb64ff;
+    --secondary-color:             #211b26;
+    --background-color:            #121212;
+    --header-color:                #282828;
+    --text-primary-color:          #ffffff;
+    --text-secondary-color:        #b1b1b1;
+    --accent-color:                #cd88ff;
+    --background-primary-color:    #211b26;
+    --background-dark-color:       #2a232f;
+    --background-highlight-color:  #372e3d;
+}
+
 /* File behavior */
 html {
     scroll-behavior: smooth;
@@ -14,7 +28,7 @@ body, h1, h2, h3, h4, h5, h6, p, a, ul, ol, li {
     margin: 0;
     padding: 0;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color: #b1b1b1;
+    color: var(--text-secondary-color);
     text-shadow: #797979 0px 0px 2px;
 }
 
@@ -31,13 +45,13 @@ p {
 
 /* Heading styling */
 h1, h2, h3 {
-    color: #ffffff;
+    color: var(--text-primary-color);
 }
 
 /* Body styling */
 body {
     line-height: 1.6;
-    background-color: #121212;
+    background-color: var(--background-color);
 }
 
 /* Unordered list styling */
@@ -52,7 +66,7 @@ section {
     padding: 10px;
 }
 section a {
-    color: #bb64ff;
+    color: var(--primary-color);
 }
 section h2 {
     margin-top: 0;
@@ -62,8 +76,8 @@ section h2 {
 header {
     z-index: 1000;
     position: fixed;
-    background-color: #282828;
-    color: #ffffff;
+    background-color: var(--header-color);
+    color: var(--text-primary-color);
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
     padding: 0;
     top: 0;
@@ -82,7 +96,7 @@ header div {
     align-items: center;
 }
 header div a {
-    color: #ffffff;
+    color: var(--text-primary-color);
     text-decoration: none;
     margin: 0 10px;
 }
@@ -90,12 +104,12 @@ header div a:hover {
     text-decoration: underline;
 }
 .primary-link {
-    background-color: #bb64ff;
+    background-color: var(--primary-color);
     padding: 8px 10px;
     border-radius: 0px;
 }
 .secondary-link {
-    background-color: #cd88ff;
+    background-color: var(--accent-color);
     padding: 8px 10px;
     border-radius: 0px;
 }
@@ -103,8 +117,7 @@ header div a:hover {
 /* Footer styling */
 footer {
     position: relative;
-    background-color: #282828;
-    color: #ffffff;
+    background-color: var(--header-color);
     text-align: center;
     padding: 8px 0;
     bottom: 0;

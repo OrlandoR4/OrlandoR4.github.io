@@ -21,8 +21,8 @@ footer {
 }
 #quote .button {
     transition: transform 0.2s ease-in-out;
-    color: #ffffff;
-    background-color: #bb64ff;
+    color: var(--text-primary-color);
+    background-color: var(--primary-color);
     padding: 12px 20px;
     display: inline-block;
     margin: 10px;
@@ -54,19 +54,19 @@ footer {
     border-collapse: collapse; /* Removes gaps between table borders */
     margin: 20px auto; /* Adds space above and below the table */
     font-size: 1rem; /* Sets a readable font size */
-    color: #ffffff; /* Text color */
-    background-color: #211b26; /* Matches the site's dark theme */
+    color: var(--text-primary-color); /* Text color */
+    background-color: var(--background-primary-color); /* Matches the site's dark theme */
 }
 /* Table header */
 #materials-table thead th {
-    background-color: #bb64ff; /* Purple header for contrast */
-    color: #ffffff; /* White text for readability */
+    background-color: var(--primary-color); /* Purple header for contrast */
+    color: var(--text-primary-color); /* White text for readability */
     padding: 10px 15px; /* Adds padding inside cells */
-    border-bottom: 2px solid #ffffff; /* Bottom border for separation */
+    border-bottom: 2px solid var(--text-primary-color); /* Bottom border for separation */
 }
 /* Table rows */
 #materials-table tbody tr {
-    border-bottom: 1px solid #333; /* Subtle row separation */
+    border-bottom: 1px solid var(--header-color); /* Subtle row separation */
     transition: background-color 0.2s ease; /* Hover animation */
 }
 /* Table cells */
@@ -74,10 +74,10 @@ footer {
     padding: 8px 16px; /* Adds padding inside cells */
 }
 #materials-table tbody tr:nth-child(even) {
-    background-color: #2a232f; /* Slightly lighter background for alternate rows */
+    background-color: var(--background-dark-color); /* Slightly lighter background for alternate rows */
 }
 #materials-table tbody tr:hover {
-    background-color: #372e3d; /* Highlight row on hover */
+    background-color: var(--background-highlight-color); /* Highlight row on hover */
 }
 
 /* Examples section styling */
