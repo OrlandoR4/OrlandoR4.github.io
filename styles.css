@@ -1,7 +1,6 @@
 /* Root variables */
 :root {
     --primary-color:               #dc143c; /* Crimson red */
-    --secondary-color:             #211b26; /* Dark theme retained */
     --background-color:            #121212; /* Dark theme retained */
     --header-color:                #1f1f1f; /* Slightly darker header */
     --header-light-color:          #292929; /* Lighter but still dark */
@@ -153,26 +152,27 @@ footer {
 }
 
 /* Project section styling */
-#projects .project-grid {
+.grid-display {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     margin: 0 auto;
     margin-top: 20px;
     gap: 40px;
 }
-#projects img {
+.grid-image {
     transition: transform 0.2s ease-in-out;
     border-radius: 2%;
     width: 100%;
     aspect-ratio: 1 / 1;
     object-fit: cover;
     border-style: solid;
-    border-color: #211b26;
+    border-color: var(--background-primary-color);
     border-width: 4px;
 }
-#projects img:hover {
+.grid-image:hover {
     transform: scale(1.02);
 }
+
 
 /* Mobile settings */
 @media (max-aspect-ratio: 1 / 1) {
@@ -186,10 +186,10 @@ footer {
     .nav-right-content {
         display: none;
     }
-    #projects .project-grid {
+    .grid-display {
         grid-template-columns: repeat(2, 1fr);
     }
-    #projects .project-grid p {
+    .grid-display p {
         display: none;
     }
 }

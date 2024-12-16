@@ -87,6 +87,7 @@ footer {
     margin-bottom: 100px; /* Margin to prevent footer from covering content */
 }
 
+
 /* Mobile settings */
 @media (max-aspect-ratio: 1 / 1) {
     .hide-on-small {
@@ -94,10 +95,10 @@ footer {
     }
     #materials-table {
         max-width: fit-content;
-        font-size: 0.7em; /* Reduce font size for smaller screens */
+        font-size: 0.6em; /* Reduce font size for smaller screens */
     }
     #materials-table thead th {
-        padding: 2px 3px; /* Adds padding inside cells */
+        padding: 2px 2px; /* Adds padding inside cells */
     }
     #capabilities .content{
         display: grid;
