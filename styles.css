@@ -189,7 +189,4 @@ footer {
     .grid-display {
         grid-template-columns: repeat(2, 1fr);
     }
-    .grid-display p {
-        display: none;
-    }
 }
