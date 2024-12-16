@@ -48,6 +48,45 @@ footer {
     text-align: left;
 }
 
+/* General table styling */
+#materials-table {
+    width: 80%; /* Full width of the container */
+    border-collapse: collapse; /* Removes gaps between table borders */
+    margin: 20px auto; /* Adds space above and below the table */
+    font-size: 1rem; /* Sets a readable font size */
+    color: #ffffff; /* Text color */
+    background-color: #211b26; /* Matches the site's dark theme */
+}
+
+/* Table header */
+#materials-table thead th {
+    background-color: #bb64ff; /* Purple header for contrast */
+    color: #ffffff; /* White text for readability */
+    padding: 10px 15px; /* Adds padding inside cells */
+    border-bottom: 2px solid #ffffff; /* Bottom border for separation */
+}
+
+/* Table rows */
+#materials-table tbody tr {
+    border-bottom: 1px solid #333; /* Subtle row separation */
+    transition: background-color 0.2s ease; /* Hover animation */
+}
+
+/* Table cells */
+#materials-table tbody td {
+    padding: 10px 15px; /* Adds padding inside cells */
+}
+
+/* Alternate row styling */
+#materials-table tbody tr:nth-child(even) {
+    background-color: #2a232f; /* Slightly lighter background for alternate rows */
+}
+
+/* Row hover effect */
+#materials-table tbody tr:hover {
+    background-color: #372e3d; /* Highlight row on hover */
+}
+
 /* Examples section styling */
 #examples {
     margin-bottom: 100px; /* Margin to prevent footer from covering content */
@@ -55,6 +94,13 @@ footer {
 
 /* Mobile settings */
 @media (max-aspect-ratio: 1 / 1) {
+    .hide-on-small {
+        display: none; /* Hides the column */
+    }
+    #materials-table {
+        max-width: fit-content;
+        font-size: 0.7em; /* Reduce font size for smaller screens */
+    }
     #capabilities .content{
         display: grid;
         grid-template-columns: repeat(1, 1fr);
