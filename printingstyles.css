@@ -111,4 +111,7 @@ footer {
         margin-top: 20px;
         gap: 10px;
     }
+    .grid-display p{
+        display: inline;
+    }
 }
