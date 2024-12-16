@@ -7,6 +7,8 @@
     --header-light-color:          #292929; /* Lighter but still dark */
     --text-primary-color:          #ffffff; /* White text */
     --text-secondary-color:        #b1b1b1; /* Monochromatic text color retained */
+    --text-shadow-color:           #797979; /* Monochromatic text color retained */
+    --text-primary-shadow-color:   #bb3030; /* Dark unsaturated red */
     --accent-color:                #e3345a; /* Crimson red accent */
     --background-primary-color:    #261b1c; /* Dark theme retained */
     --background-dark-color:       #2f2327; /* Dark theme retained */
@@ -30,7 +32,7 @@ body, h1, h2, h3, h4, h5, h6, p, a, ul, ol, li {
     padding: 0;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: var(--text-secondary-color);
-    text-shadow: #797979 0px 0px 2px;
+    text-shadow: var(--text-shadow-color) 0px 0px 2px;
 }
 
 /* Horizontal rule styling */
@@ -42,6 +44,11 @@ hr {
 p {
     font-size: medium;
     margin-bottom: 10px; /* Space after paragraph */
+}
+
+/* Link styling */
+a {
+    text-shadow: var(--text-primary-shadow-color) 0px 0px 2px;
 }
 
 /* Heading styling */
