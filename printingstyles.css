@@ -83,10 +83,10 @@ footer {
 }
 
 /* Examples section styling */
-#examples {
+#gallery {
     margin-bottom: 100px; /* Margin to prevent footer from covering content */
 }
-#examples .grid-display p {
+#gallery .grid-display p {
     color: var(--primary-color);
     text-shadow: var(--text-primary-shadow-color) 0px 0px 2px;
 }
