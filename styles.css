@@ -34,11 +34,6 @@ body, h1, h2, h3, h4, h5, h6, p, a, ul, ol, li {
     text-shadow: var(--text-shadow-color) 0px 0px 2px;
 }
 
-/* Horizontal rule styling */
-hr {
-    max-width: 60%;
-}
-
 /* Paragraph styling */
 p {
     font-size: medium;
@@ -69,7 +64,8 @@ ul{
 
 /* Section styling */
 section {
-    margin: 5px;
+    max-width: 60%;
+    margin: 0 auto;
     padding: 10px;
 }
 section a {
@@ -131,14 +127,9 @@ footer {
     width: 100%;
 }
 
-/* Margins for text and any content within a section */
-.content {
-    max-width: 60%;
-    margin: 0 auto;
-}
-
 /* Home section styling */
 #home {
+    max-width: 100%;
     margin-top: 30px;
     margin-bottom: -2px;
     padding: 0;
@@ -176,20 +167,20 @@ footer {
 
 /* Mobile settings */
 @media (max-aspect-ratio: 1 / 1) {
-    hr {
-        max-width: 80%;
-    }
-    .content {
-        max-width: none;
-        margin: 0 5%;
-    }
     .nav-right-content {
         display: none;
+    }
+    .hide-on-small {
+        display: none; /* Hides the column */
+    }
+    section {
+        max-width: none;
+        margin: 0 5%;
     }
     .grid-display {
         grid-template-columns: repeat(2, 1fr);
     }
-    .grid-display p {
+    #projects .grid-display p {
         display: none;
     }
 }

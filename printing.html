@@ -32,22 +32,15 @@
     <div id="quote-anchor" class="anchor"></div>
     <section id="quote">
         <h1><em>Space City Precision 3D</em></h1>
-        <div class="content">
-            <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam lobortis, tortor non convallis maximus, erat orci mattis lorem, vel vehicula nisl eros vel eros. Maecenas mattis ante nulla, sed elementum turpis finibus sed. Aenean mattis turpis eu magna finibus rutrum. Nunc dignissim rutrum velit, ut dapibus sapien rutrum id. Nullam tincidunt egestas dui vitae consectetur. Sed et vehicula elit. Nullam at rhoncus augue, ac interdum nunc. Sed mollis justo eu nisl dignissim faucibus. Ut nulla diam, malesuada nec lacus nec, commodo vehicula velit. Morbi faucibus mauris diam, at vestibulum urna feugiat quis. Cras cursus ultricies tortor a sagittis. Sed quam magna, malesuada et sapien id, suscipit vestibulum tortor. Sed vitae libero maximus, finibus diam sit amet, venenatis sapien. Pellentesque eget congue nisi.
-            </p>
-            <a target="_blank" rel="noopener noreferrer" href="https://forms.gle/TJZeQ2GE15b8MYX97" class="button"><b>Request Quote</b></a>
-            <p>
-                *Quotes are sent within 1-2 Business Days
-            </p>
-        </div>
+        <a target="_blank" rel="noopener noreferrer" href="https://forms.gle/TJZeQ2GE15b8MYX97" class="button"><b>Request Quote</b></a>
+        <p>*Quotes are sent within 1-2 Business Days</p>
     </section>
 
     <div id="capabilities-anchor" class="anchor"></div>
     <section id ="capabilities">
         <h1>Capabilities</h1>
         <hr>
-        <div class="content">
+        <div class="grid-display">
             <div class="materials">
                 <h3>Materials</h3>
                 <ul>
@@ -86,90 +79,98 @@
     <div id="stock-anchor" class="anchor"></div>
     <section id ="stock">
         <hr>
-        <div class="content">
-            <h1>Active Stock</h1>
-            <h4>Last Updated 12/14/2024 09:00 CST</h4>
-            <table id="materials-table">
-                <thead>
-                    <tr>
-                        <th>Material</th>
-                        <th>$/plate</th>
-                        <th>$/hour</th>
-                        <th>$/gram</th>
-                        <th class="hide-on-small">Applications</th>
-                        <th>Availability</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <td>PLA</td><td>$7.59</td><td>$1.00</td><td>$0.05</td>
-                        <td class="hide-on-small">Prototypes, Aesthetic parts</td>
-                        <td>In stock</td>
-                    </tr>
-                    <tr>
-                        <td>PETG-CF</td><td>$7.59</td><td>$1.50</td><td>$0.07</td>
-                        <td class="hide-on-small">Functional, high dimensional accuracy, outdoor parts, with moderate mechanical strength</td>
-                        <td>Low Quantity</td>
-                    </tr>
-                    <tr>
-                        <td>TPU 95A</td><td>$10.59</td><td>$1.00</td><td>$0.07</td>
-                        <td class="hide-on-small">Flexible rubber-like parts, high durability and impact resistance</td>
-                        <td>Low Quantity</td>
-                    </tr>
-                    <tr>
-                        <td>PC</td><td>$14.59</td><td>$1.00</td><td>$0.08</td>
-                        <td class="hide-on-small">High impact and temperature resistant functional parts</td>
-                        <td>Out of stock</td>
-                    </tr>
-                    <tr>
-                        <td>PAHT-CF</td><td>$19.59</td><td>$2.00</td><td>$0.12</td>
-                        <td class="hide-on-small">High impact resistance, extreme temperature resistance, and high mechanical strength</td>
-                        <td>Out of stock</td>
-                    </tr>
-                    <tr>
-                        <td>PET-CF</td><td>$19.59</td><td>$2.00</td><td>$0.10</td>
-                        <td class="hide-on-small">High mechanical strength and stiffness, high temperature resistance, low deformation</td>
-                        <td>In stock</td>
-                    </tr>
-                </tbody>
-            </table>
-            <p>
-                *If ordering out of stock filaments or special requests, your order may take longer to be fabricated and delivered
-            </p>
-        </div>
+        <h1>Active Stock</h1>
+        <h4>Last Updated 12/14/2024 09:00 CST</h4>
+        <table id="materials-table">
+            <thead>
+                <tr>
+                    <th>Material</th>
+                    <th>$/plate</th>
+                    <th>$/hour</th>
+                    <th>$/gram</th>
+                    <th class="hide-on-small">Applications</th>
+                    <th>Availability</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>PLA</td><td>$7.59</td><td>$1.00</td><td>$0.05</td>
+                    <td class="hide-on-small">
+                        Prototypes, Aesthetic parts
+                    </td>
+                    <td>In stock</td>
+                </tr>
+                <tr>
+                    <td>PETG-CF</td><td>$7.59</td><td>$1.50</td><td>$0.07</td>
+                    <td class="hide-on-small">
+                        Functional, high dimensional accuracy, outdoor parts, with moderate mechanical strength
+                    </td>
+                    <td>Low Quantity</td>
+                </tr>
+                <tr>
+                    <td>TPU 95A</td><td>$10.59</td><td>$1.00</td><td>$0.07</td>
+                    <td class="hide-on-small">
+                        Flexible rubber-like parts, high durability and impact resistance
+                    </td>
+                    <td>Low Quantity</td>
+                </tr>
+                <tr>
+                    <td>PC</td><td>$14.59</td><td>$1.00</td><td>$0.08</td>
+                    <td class="hide-on-small">
+                        High impact and temperature resistant functional parts
+                    </td>
+                    <td>Out of stock</td>
+                </tr>
+                <tr>
+                    <td>PAHT-CF</td><td>$19.59</td><td>$2.00</td><td>$0.12</td>
+                    <td class="hide-on-small">
+                        High impact resistance, extreme temperature resistance, and high mechanical strength
+                    </td>
+                    <td>Out of stock</td>
+                </tr>
+                <tr>
+                    <td>PET-CF</td><td>$19.59</td><td>$2.00</td><td>$0.10</td>
+                    <td class="hide-on-small">
+                        High mechanical strength and stiffness, high temperature resistance, low deformation
+                    </td>
+                    <td>In stock</td>
+                </tr>
+            </tbody>
+        </table>
+        <p>
+            *If ordering out of stock filaments or special requests, your order may take longer to be fabricated and delivered
+        </p>
         <hr>
     </section>
 
     <div id="gallery-anchor" class="anchor"></div>
     <section id ="gallery">
-        <div class="content">
-            <h1>Gallery</h1>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-            <div class="grid-display">
-                <div class="model-example">
-                    <img class="grid-image" src="images/sampleimage_2.jpeg" alt="Model image">
-                    <p>Model Example <br> (Bambu PLA Basic)</p>
-                </div>
-                <div class="model-example">
-                    <img class="grid-image" src="images/sampleimage_2.jpeg" alt="Model image">
-                    <p>Model Example <br> (Bambu PLA Basic)</p>
-                </div>
-                <div class="model-example">
-                    <img class="grid-image" src="images/sampleimage_2.jpeg" alt="Model image">
-                    <p>Model Example <br> (Bambu PLA Basic)</p>
-                </div>
-                <div class="model-example">
-                    <img class="grid-image" src="images/sampleimage_2.jpeg" alt="Model image">
-                    <p>Model Example <br> (Bambu PLA Basic)</p>
-                </div>
-                <div class="model-example">
-                    <img class="grid-image" src="images/sampleimage_2.jpeg" alt="Model image">
-                    <p>Model Example <br> (Bambu PLA Basic)</p>
-                </div>
-                <div class="model-example">
-                    <img class="grid-image" src="images/sampleimage_2.jpeg" alt="Model image">
-                    <p>Model Example <br> (Bambu PLA Basic)</p>
-                </div>
+        <h1>Gallery</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        <div class="grid-display">
+            <div class="model-example">
+                <img class="grid-image" src="images/sampleimage_2.jpeg" alt="Model image">
+                <p>Model Example <br> (Bambu PLA Basic)</p>
+            </div>
+            <div class="model-example">
+                <img class="grid-image" src="images/sampleimage_2.jpeg" alt="Model image">
+                <p>Model Example <br> (Bambu PLA Basic)</p>
+            </div>
+            <div class="model-example">
+                <img class="grid-image" src="images/sampleimage_2.jpeg" alt="Model image">
+                <p>Model Example <br> (Bambu PLA Basic)</p>
+            </div>
+            <div class="model-example">
+                <img class="grid-image" src="images/sampleimage_2.jpeg" alt="Model image">
+                <p>Model Example <br> (Bambu PLA Basic)</p>
+            </div>
+            <div class="model-example">
+                <img class="grid-image" src="images/sampleimage_2.jpeg" alt="Model image">
+                <p>Model Example <br> (Bambu PLA Basic)</p>
+            </div>
+            <div class="model-example">
+                <img class="grid-image" src="images/sampleimage_2.jpeg" alt="Model image">
+                <p>Model Example <br> (Bambu PLA Basic)</p>
             </div>
         </div>
     </section>

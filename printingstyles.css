@@ -11,8 +11,7 @@ footer {
 
 /* Quote section styling */
 #quote {
-    margin-top: 50px;
-    margin-bottom: -2px;
+    text-align: left;
     padding: 0;
     border: 0;
 }
@@ -36,7 +35,7 @@ footer {
 }
 
 /* Capabilities section styling */
-#capabilities .content{
+#capabilities .grid-display{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     margin: 0 auto;
@@ -94,9 +93,6 @@ footer {
 
 /* Mobile settings */
 @media (max-aspect-ratio: 1 / 1) {
-    .hide-on-small {
-        display: none; /* Hides the column */
-    }
     #materials-table {
         max-width: fit-content;
         font-size: 0.6em; /* Reduce font size for smaller screens */
@@ -104,7 +100,7 @@ footer {
     #materials-table thead th {
         padding: 2px 2px; /* Adds padding inside cells */
     }
-    #capabilities .content{
+    #capabilities .grid-display{
         display: grid;
         grid-template-columns: repeat(1, 1fr);
         margin: 0 auto;
@@ -114,6 +110,5 @@ footer {
     .grid-display p{
         font-size: 0.8em; /* Reduce font size for smaller screens */
         margin: 2px; /* Space after paragraph */
-        display: inline;
     }
 }
