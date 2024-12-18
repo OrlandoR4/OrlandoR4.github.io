@@ -11,15 +11,11 @@ footer {
 
 /* Quote section styling */
 #quote {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    display: flex;
+    justify-content: space-between;
     text-align: left;
-    justify-content: left;
     margin: 0 auto;
-    gap: 0;
-}
-#quote img {
-    justify-self: end;
+    gap: 10%;
 }
 #quote h1 {
     font-size: 6vh;
@@ -37,6 +33,13 @@ footer {
 }
 #quote .button:hover {
     transform: scale(1.1);
+}
+#quote ul {
+    margin-top: 50px;
+    list-style-type: "✅ ";
+}
+#quote li {
+    margin-top: 10px;
 }
 
 /* Capabilities section styling */
