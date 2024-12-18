@@ -143,6 +143,9 @@ footer {
 }
 
 /* Project section styling */
+#projects .grid-display {
+    max-width: 95%;
+}
 .grid-display {
     display: grid;
     grid-template-columns: repeat(3, 1fr);

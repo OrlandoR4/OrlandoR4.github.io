@@ -11,6 +11,9 @@ footer {
 
 /* Quote section styling */
 #quote {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     text-align: left;
     padding: 0;
     border: 0;
@@ -18,7 +21,6 @@ footer {
 #quote h1 {
     font-size: 6vh;
     padding-top: 100px;
-    margin-bottom: 30px;
 }
 #quote .button {
     transition: transform 0.2s ease-in-out;
