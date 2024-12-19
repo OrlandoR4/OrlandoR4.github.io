@@ -42,8 +42,23 @@ footer {
     margin-top: 10px;
 }
 
+/* WhatWeDo section styling */
+#whatwedo .flex-display {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    margin-top: 0px;
+    gap: 10px;
+    align-items: center;
+}
+#whatwedo img {
+    aspect-ratio: 1 / 1;
+    object-fit: contain;
+    max-width: 15%;
+}
+
 /* Capabilities section styling */
-#capabilities .grid-display{
+#capabilities .grid-display {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     margin: 0 auto;
