@@ -3,6 +3,11 @@ body{
     text-align: center;
 }
 
+/* Section styling */
+section {
+    max-width: 70%;
+}
+
 /* Footer styling */
 footer {
     position: fixed;
@@ -11,6 +16,7 @@ footer {
 
 /* Quote section styling */
 #quote {
+    font-size: large;
     display: flex;
     justify-content: space-between;
     text-align: left;
@@ -20,6 +26,9 @@ footer {
 #quote h1 {
     font-size: 6vh;
     padding-top: 100px;
+}
+#quote img {
+    padding-right: 100px;
 }
 #quote .button {
     transition: transform 0.2s ease-in-out;
@@ -39,10 +48,14 @@ footer {
     list-style-type: "✅ ";
 }
 #quote li {
+    font-size: smaller;
     margin-top: 10px;
 }
 
 /* WhatWeDo section styling */
+#whatwedo p{
+    font-size: large;
+}
 #whatwedo .flex-display {
     display: flex;
     justify-content: space-between;
@@ -55,6 +68,17 @@ footer {
     aspect-ratio: 1 / 1;
     object-fit: contain;
     max-width: 15%;
+}
+
+/* How it works styling */
+#howitworks .grid-display {
+    grid-template-columns: repeat(4, 1fr);
+}
+
+#howitworks img {
+    aspect-ratio: 1 / 1;
+    object-fit: contain;
+    max-width: 40%;
 }
 
 /* Capabilities section styling */
@@ -95,6 +119,7 @@ footer {
 }
 /* Table cells */
 #materials-table tbody td {
+    height: 3em;
     padding: 8px 16px; /* Adds padding inside cells */
 }
 #materials-table tbody tr:nth-child(even) {
@@ -123,12 +148,15 @@ footer {
     #quote {
         display: inline-block;
     }
-    #materials-table {
-        max-width: fit-content;
-        font-size: 0.6em; /* Reduce font size for smaller screens */
+    #howitworks .grid-display{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        margin: 0 auto;
+        margin-top: 20px;
+        gap: 10px;
     }
-    #materials-table thead th {
-        padding: 2px 2px; /* Adds padding inside cells */
+    #howitworks img {
+        max-width: 15%;
     }
     #capabilities .grid-display{
         display: grid;
@@ -136,5 +164,12 @@ footer {
         margin: 0 auto;
         margin-top: 20px;
         gap: 10px;
+    }
+    #materials-table {
+        max-width: fit-content;
+        font-size: 0.6em; /* Reduce font size for smaller screens */
+    }
+    #materials-table thead th {
+        padding: 2px 2px; /* Adds padding inside cells */
     }
 }
