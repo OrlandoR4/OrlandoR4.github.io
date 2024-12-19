@@ -141,6 +141,10 @@ footer {
 
 /* Mobile settings */
 @media (max-aspect-ratio: 1 / 1) {
+    section {
+        max-width: none;
+        margin: 0 5%;
+    }
     .grid-display p{
         font-size: 0.8em; /* Reduce font size for smaller screens */
         margin: 2px; /* Space after paragraph */

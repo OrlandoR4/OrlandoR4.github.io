@@ -170,15 +170,15 @@ footer {
 
 /* Mobile settings */
 @media (max-aspect-ratio: 1 / 1) {
+    section {
+        max-width: none;
+        margin: 0 5%;
+    }
     .nav-right-content {
         display: none;
     }
     .hide-on-small {
         display: none; /* Hides the column */
-    }
-    section {
-        max-width: none;
-        margin: 0 5%;
     }
     .grid-display {
         grid-template-columns: repeat(2, 1fr);
