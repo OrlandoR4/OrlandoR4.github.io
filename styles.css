@@ -187,3 +187,10 @@ footer {
         display: none;
     }
 }
+
+/* Desktop settings */
+@media (min-aspect-ratio: 1 / 1) {
+    .hide-on-large {
+        display: none; /* Hides the column */
+    }
+}
