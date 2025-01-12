@@ -153,6 +153,9 @@ footer {
     #quote {
         display: inline-block;
     }
+    #whatwedo p{
+        font-size: medium;
+    }
     #howitworks .grid-display{
         display: grid;
         grid-template-columns: repeat(1, 1fr);
