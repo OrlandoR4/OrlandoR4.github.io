@@ -178,7 +178,7 @@ footer {
         display: none;
     }
     .hide-on-small {
-        display: none; /* Hides the column */
+        display: none;
     }
     .grid-display {
         grid-template-columns: repeat(2, 1fr);
@@ -191,6 +191,6 @@ footer {
 /* Desktop settings */
 @media (min-aspect-ratio: 1 / 1) {
     .hide-on-large {
-        display: none; /* Hides the column */
+        display: none;
     }
 }

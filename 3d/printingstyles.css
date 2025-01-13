@@ -132,6 +132,7 @@ footer {
 
 /* Examples section styling */
 #gallery {
+    display: none; /* TEMPORARY */
     margin-bottom: 100px; /* Margin to prevent footer from covering content */
 }
 #gallery .grid-display p {
