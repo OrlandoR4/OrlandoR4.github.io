@@ -97,6 +97,11 @@ footer {
     text-align: left;
 }
 
+/* Stock section styling */
+#stock {
+    margin-bottom: 100px; /* TEMPORARY */
+}
+
 /* General table styling */
 #materials-table {
     width: 80%; /* Full width of the container */
