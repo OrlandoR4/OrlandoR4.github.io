@@ -17,19 +17,26 @@ footer {
 
 /* Quote section styling */
 #quote {
+
     font-size: large;
     display: flex;
     justify-content: space-between;
     text-align: left;
     margin: 0 auto;
-    gap: 10%;
+    gap: 5%;
+}
+#quote .quote-left {
+    min-width: 50%;
+}
+#quote .quote-right {
+    max-width: 40%;
 }
 #quote h1 {
     font-size: 6vh;
     padding-top: 100px;
 }
 #quote img {
-    padding-right: 100px;
+    max-width: 100%;
 }
 #quote .button {
     transition: transform 0.2s ease-in-out;
@@ -158,6 +165,10 @@ footer {
     }
     #quote {
         display: inline-block;
+    }
+    #quote .quote-right {
+        max-width: 100%;
+        margin-bottom: 50px;
     }
     #whatwedo p{
         font-size: medium;
