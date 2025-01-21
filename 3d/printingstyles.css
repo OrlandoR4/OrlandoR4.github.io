@@ -107,7 +107,6 @@ footer {
 /* Stock section styling */
 #stock {
     margin-top: 10px;
-    margin-bottom: 100px; /* TEMPORARY */
 }
 
 /* General table styling */
@@ -151,6 +150,11 @@ footer {
 #gallery .grid-display p {
     color: var(--primary-color);
     text-shadow: var(--text-primary-shadow-color) 0px 0px 2px;
+}
+
+#contact {
+    margin-top: 40px; /* TEMPORARY */
+    margin-bottom: 150px; /* TEMPORARY */
 }
 
 
