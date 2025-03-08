@@ -111,7 +111,7 @@ footer {
 
 /* General table styling */
 #materials-table {
-    width: 80%; /* Full width of the container */
+    width: 60%; /* Full width of the container */
     border-collapse: collapse; /* Removes gaps between table borders */
     margin: 20px auto; /* Adds space above and below the table */
     font-size: 1rem; /* Sets a readable font size */
@@ -134,6 +134,9 @@ footer {
 #materials-table tbody td {
     height: 3em;
     padding: 8px 16px; /* Adds padding inside cells */
+}
+#materials-table tbody .hide-on-small {
+    color: var(--text-secondary-color);
 }
 #materials-table tbody tr:nth-child(even) {
     background-color: var(--background-dark-color); /* Slightly lighter background for alternate rows */
@@ -194,5 +197,8 @@ footer {
         margin: 0 auto;
         margin-top: 20px;
         gap: 10px;
+    }
+    #materials-table {
+        width: 90%; /* Full width of the container */
     }
 }
